@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: 1
+      author: "palo.liska"
+      changes:
+        - createCollection:
+            collectionName: "request"
